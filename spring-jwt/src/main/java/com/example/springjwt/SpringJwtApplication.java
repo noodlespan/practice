@@ -1,11 +1,13 @@
-package com.example.spring.security5.sessionh2;
+package com.example.springjwt;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SessionH2Application {
+public class SpringJwtApplication {
+
     public static void main(String[] args) {
-        SpringApplication.run(SessionH2Application.class, args);
+        SpringApplication.run(SpringJwtApplication.class, args);
     }
+
 }
