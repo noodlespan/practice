@@ -1,0 +1,34 @@
+2020-04-05 13:43:22.483  INFO 12076 --- [restartedMain] c.e.s.SpringLoggingApplication           : Starting SpringLoggingApplication on DESKTOP-R9F3JP1 with PID 12076 (D:\Desktop\spring-logging\target\classes started by dell in D:\Desktop\spring-logging)
+2020-04-05 13:43:22.488  INFO 12076 --- [restartedMain] c.e.s.SpringLoggingApplication           : No active profile set, falling back to default profiles: default
+2020-04-05 13:43:22.537  INFO 12076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-05 13:43:22.538  INFO 12076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-05 13:43:23.715  INFO 12076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-05 13:43:23.729  INFO 12076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 13:43:23.729  INFO 12076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-05 13:43:23.889  INFO 12076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 13:43:23.890  INFO 12076 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1351 ms
+2020-04-05 13:43:24.134  INFO 12076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 13:43:24.299  INFO 12076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-05 13:43:24.386  INFO 12076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-05 13:43:24.392  INFO 12076 --- [restartedMain] c.e.s.SpringLoggingApplication           : Started SpringLoggingApplication in 2.292 seconds (JVM running for 3.419)
+2020-04-05 13:43:29.566  INFO 12076 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 13:43:29.566  INFO 12076 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-05 13:43:29.573  INFO 12076 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-04-05 13:43:29.590 TRACE 12076 --- [http-nio-8080-exec-1] c.e.springlogging.LoggerController       : This is a trace msg:Sun Apr 05 13:43:29 CST 2020
+2020-04-05 13:43:29.591 DEBUG 12076 --- [http-nio-8080-exec-1] c.e.springlogging.LoggerController       : This is a debug msg:Sun Apr 05 13:43:29 CST 2020
+2020-04-05 13:43:29.592  INFO 12076 --- [http-nio-8080-exec-1] c.e.springlogging.LoggerController       : This is a info msg:Sun Apr 05 13:43:29 CST 2020
+2020-04-05 13:43:29.592  WARN 12076 --- [http-nio-8080-exec-1] c.e.springlogging.LoggerController       : This is a warn msg:Sun Apr 05 13:43:29 CST 2020
+2020-04-05 13:43:29.592 ERROR 12076 --- [http-nio-8080-exec-1] c.e.springlogging.LoggerController       : This is a error msg:Sun Apr 05 13:43:29 CST 2020
+2020-04-05 13:44:17.389  INFO 2796 --- [restartedMain] c.e.s.SpringLoggingApplication           : Starting SpringLoggingApplication on DESKTOP-R9F3JP1 with PID 2796 (D:\Desktop\spring-logging\target\classes started by dell in D:\Desktop\spring-logging)
+2020-04-05 13:44:17.393  INFO 2796 --- [restartedMain] c.e.s.SpringLoggingApplication           : No active profile set, falling back to default profiles: default
+2020-04-05 13:44:17.454  INFO 2796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-05 13:44:17.454  INFO 2796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-05 13:44:18.644  INFO 2796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-05 13:44:18.654  INFO 2796 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 13:44:18.654  INFO 2796 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-05 13:44:18.810  INFO 2796 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 13:44:18.811  INFO 2796 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1357 ms
+2020-04-05 13:44:19.048  INFO 2796 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 13:44:19.230  INFO 2796 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-05 13:44:19.323  INFO 2796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-05 13:44:19.330  INFO 2796 --- [restartedMain] c.e.s.SpringLoggingApplication           : Started SpringLoggingApplication in 2.359 seconds (JVM running for 3.73)

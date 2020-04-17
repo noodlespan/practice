@@ -64,6 +64,7 @@ public class JwtAuthenticateFilter extends UsernamePasswordAuthenticationFilter 
                 .claim("rol",roles)
                 .signWith(key).compact();
 
+
         response.setHeader(SecurityConstants.TOKEN_HEADER,SecurityConstants.TOKEN_PREFIX+token);
 
     }
